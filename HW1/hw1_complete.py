@@ -17,6 +17,9 @@ list_of_heights_cm = [175, 162, 178, 182]
 for name in list_of_names:
   print("The name {:} is {:} letters long".format(name, len(name)))
 
+new_list = [x for x in list_of_ages]
+print(new_list)
+
 ########################################
 # Here's the information for the second part, involving the linear
 # classifier
