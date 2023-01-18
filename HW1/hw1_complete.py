@@ -86,3 +86,10 @@ def evaluate_classifier(cls_func, x_data, labels, print_confusion_matrix=True):
 ## Now evaluate the classifier we've built.  This will evaluate the
 # random classifier, which should have accuracy around 33%.
 acc, cm = evaluate_classifier(classify_rand, x_data.to_numpy(), y_labels.to_numpy())
+
+
+import Person
+
+new_person = Person(name='Joe', age=34, height=184)
+
+
