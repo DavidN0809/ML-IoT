@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "average age",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_average_age",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "people dictionary",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_people_dict",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "person string",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_person_string",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "classifier is functional",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_classifier",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Minimal accuracy ",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_avg_low",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test for good classifier accuracy",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_avg_high",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
